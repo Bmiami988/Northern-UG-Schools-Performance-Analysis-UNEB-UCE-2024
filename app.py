@@ -43,7 +43,7 @@ def main():
     filtered_df = df[df['DistrictName'].isin(selected_districts)]
     
     # Main content
-    st.title("🏫 Northern Uganda Schools Analysis (2024 UNEB Results)")
+    st.title("🏫 NORTHERN UGANDA SCHOOLS ANALYSIS (2024 UNEB RESULTS)")
     st.markdown("""
     ### Interactive Education Dashboard
     Explore performance metrics and enrollment patterns across Northern Uganda schools.
@@ -86,3 +86,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
