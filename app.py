@@ -3,9 +3,9 @@ import streamlit as st
 from utils.data_loader import load_data
 from datetime import datetime
 
-# Configure the app
+
 st.set_page_config(
-    page_title="Northern Uganda Schools Analysis",
+    page_title="NORTHERN UGANDAN SCHOOLS ANALYSIS(2024 UNEB UCE RESULTS)",
     page_icon="🏫",
     layout="wide"
 )
@@ -84,4 +84,5 @@ def main():
         )
 
 if __name__ == "__main__":
+
     main()
